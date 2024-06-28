@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+    background-image:  
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("../fondo2.jpg");
+    display: flex;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barras {
+    width: 33.33%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+}
